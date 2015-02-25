@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "atom-shell ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/finnp/atom-geojson.git"
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/finnp/atom-geojson/issues"
   },
-  "homepage": "https://github.com/finnp/atom-geojson"
+  "homepage": "https://github.com/finnp/atom-geojson",
+  "dependencies": {
+    "JSONStream": "^0.10.0",
+    "view-geojson": "^1.1.1",
+    "atom-shell": "0.21.2"
+  }
 }
